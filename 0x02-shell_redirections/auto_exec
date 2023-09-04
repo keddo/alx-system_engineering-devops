@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Define the directory to monitor
+DIRECTORY_TO_MONITOR="/root/alx-system_engineering-devops/0x02-shell_redirections"
+
+while true; do
+    # Use inotifywait to monitor the directory for close_write events (new files created)
+    FILE=$(inotifywait -q -e close_write --format '%w%f' "$DIRECTORY_TO_MONITOR")
+
+    # Ensure the file is executable
+    chmod u+x "$FILE"
+
+    echo "File '$FILE' has been made executable."
+done
+
