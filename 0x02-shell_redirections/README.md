@@ -17,3 +17,7 @@ The file iacta will be in the working directory
 Task 10: Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
 Task 11: Write a script that counts the number of directories and sub-directories in the current directory.
 The current and parent directories should not be taken into account
+Task 12: Create a script that displays the 10 newest files in the current directory.
+Requirements:
+One file per line
+Sorted from the newest to the oldest
