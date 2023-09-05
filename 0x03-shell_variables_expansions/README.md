@@ -44,3 +44,4 @@ Task 14: Write a script that converts a number from base 10 to base 16.
     The script should display the number in base 16, followed by a new line
 
 Task 15: Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+Task 16: Write a script that prints every other line from the input, starting with the first line.
