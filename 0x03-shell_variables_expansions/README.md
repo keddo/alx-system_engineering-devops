@@ -17,3 +17,8 @@ Task 9: Write a script that prints the result of POWER divided by DIVIDE, follow
 
     POWER and DIVIDE are environment variables
 
+Task 10: Write a script that displays the result of BREATH to the power LOVE
+
+    BREATH and LOVE are environment variables
+    The script should display the result, followed by a new line
+
